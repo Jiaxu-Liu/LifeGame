@@ -118,11 +118,6 @@ function refresh(){
             cell[i][j] = nextCell[i][j];
         }
     }
-    for(i = 0; i < cellNumSqrt; i++){
-        for(j = 0; j < cellNumSqrt; j++){
-            nextCell[i][j] = cell[i][j];
-        }
-    }
     cxt.clearRect(0, 0, 600, 600);
     draw();
 }
